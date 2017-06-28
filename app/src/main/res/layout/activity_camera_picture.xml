@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera_picture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <SurfaceView
+        android:id="@+id/my_surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <Button
+        android:id="@+id/take_photo"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="拍照"/>
+
+
+ <!--   <EditText
+        android:id="@+id/page_ed"
+        android:gravity="center"
+        android:layout_above="@id/take_photo"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请设置当前页数"/>-->
+
+</RelativeLayout>
